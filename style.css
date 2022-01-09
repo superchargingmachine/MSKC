@@ -1,5 +1,5 @@
 body {
-    background-image: url("/Users/Nisa/Documents/MSKC/MSKC_Drone_Wide_Angle.jpg");
+    background-image: url("images/MSKC_Drone_Wide_Angle.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -11,6 +11,23 @@ body {
     width: 500px;
     display: block;
     opacity: 0.4;
+}
+
+.btn-group button {
+    background-color: blue;
+    border: black;
+    opacity: 0.6;
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    padding: 10px 24px;
+    margin: 10px;
+    cursor: pointer;
+    width: 20%;
+    display: block;
+}
+
+/*.btn-group button-not(:last-child) {
+    border-bottom: none;*/
 }
 
 
